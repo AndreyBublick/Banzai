@@ -15,7 +15,7 @@ export const store = configureStore({
 })
 
 setupListeners(store.dispatch) // подключаем слушатели
-
+/*123*/
 if (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') {
   /*@ts-expect-error test*/
   window.getState = store.getState
